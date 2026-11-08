@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_blue">#3665ED</color>
+    <color name="primary_dark_blue">#1976D2</color>
+    <color name="primary_light_blue">#64B5F6</color>
+    <color name="accent_blue">#03A9F4</color>
+
+    <!-- 6种不同的颜色用于课程卡片 -->
+    <color name="course_color_1">#FF6B9BD1</color> <!-- 浅蓝 -->
+    <color name="course_color_2">#FF81C784</color> <!-- 浅绿 -->
+    <color name="course_color_3">#FFFFB74D</color> <!-- 浅橙 -->
+    <color name="course_color_4">#FF9575CD</color> <!-- 浅紫 -->
+    <color name="course_color_5">#FFF06292</color> <!-- 浅粉 -->
+    <color name="course_color_6">#FF4DB6AC</color> <!-- 青绿 -->
+</resources>

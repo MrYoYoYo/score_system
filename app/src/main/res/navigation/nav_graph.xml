@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_students">
+
+    <fragment
+        android:id="@+id/navigation_students"
+        android:name="com.example.score_system.fragments.StudentsFragment"
+        android:label="学生管理"
+        tools:layout="@layout/fragment_students" />
+
+    <fragment
+        android:id="@+id/navigation_courses"
+        android:name="com.example.score_system.fragments.CoursesFragment"
+        android:label="课程管理"
+        tools:layout="@layout/fragment_courses" />
+
+    <fragment
+        android:id="@+id/navigation_scores"
+        android:name="com.example.score_system.fragments.ScoresFragment"
+        android:label="成绩录入"
+        tools:layout="@layout/fragment_scores" />
+
+    <fragment
+        android:id="@+id/navigation_backup"
+        android:name="com.example.score_system.fragments.BackupFragment"
+        android:label="数据备份"
+        tools:layout="@layout/fragment_backup" />
+
+</navigation>
